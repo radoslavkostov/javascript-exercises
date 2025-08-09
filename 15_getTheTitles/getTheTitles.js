@@ -1,5 +1,11 @@
-const getTheTitles = function() {
-
+/**
+ * 
+ * @param {Array} books 
+ */
+const getTheTitles = function(books) {
+    return books.map((book) => {
+        return book.title;
+    });
 };
 
 // Do not edit below this line
